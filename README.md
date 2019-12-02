@@ -19,6 +19,12 @@ Gocode is a helper tool which is intended to be integrated with your source code
 
 It is called *daemon*, because it uses client/server architecture for caching purposes. In particular, it makes autocompletions very fast. Typical autocompletion time with warm cache is 30ms, which is barely noticeable.
 
+Also watch the [demo screencast](http://nosmileface.ru/images/gocode-demo.swf).	
+
+![Gocode in vim](http://nosmileface.ru/images/gocode-screenshot.png)	
+
+![Gocode in emacs](http://nosmileface.ru/images/emacs-gocode.png)	
+
 ### Setup
 
  1. You should have a correctly installed Go compiler environment and your personal workspace ($GOPATH). If you have no idea what **$GOPATH** is, take a look [here](http://golang.org/doc/code.html). Please make sure that your **$GOPATH/bin** is available in your **$PATH**. This is important, because most editors assume that **gocode** binary is available in one of the directories, specified by your **$PATH** environment variable. Otherwise manually copy the **gocode** binary from **$GOPATH/bin** to a location which is part of your **$PATH** after getting it in step 2.
