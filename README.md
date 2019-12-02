@@ -1,3 +1,10 @@
+# **IMPORTANT**: This repository is currently in maintenance mode.
+For a better autocompletion experience with Go, we suggest you use the Go language server, [gopls](https://github.com/golang/tools/blob/master/gopls/README.md).
+
+If you are looking for a version of `gocode` that works with Go modules, please see [stamblerre/gocode](https://github.com/stamblerre/gocode).
+
+---
+
 [![Build Status](https://travis-ci.org/mdempsky/gocode.svg?branch=master)](https://travis-ci.org/mdempsky/gocode)
 
 ## github.com/mdempsky/gocode
