@@ -3,6 +3,6 @@ package main
 import "reflect"
 
 func main() {
-	var test reflect.Value
+	var test reflect.ValueError
 	test.@
 }
