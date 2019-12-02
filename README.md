@@ -1,3 +1,10 @@
+# **IMPORTANT**: This repository is currently in maintenance mode.
+For a better autocompletion experience with Go, we suggest you use the Go language server, [gopls](https://github.com/golang/tools/blob/master/gopls/README.md).
+
+If you are looking for a version of `gocode` that works with Go modules, please see [stamblerre/gocode](https://github.com/stamblerre/gocode).
+
+---
+
 [![Build Status](https://travis-ci.org/mdempsky/gocode.svg?branch=master)](https://travis-ci.org/mdempsky/gocode)
 
 ## github.com/mdempsky/gocode
@@ -11,12 +18,6 @@ Gocode is a helper tool which is intended to be integrated with your source code
  - Context-sensitive autocompletion
 
 It is called *daemon*, because it uses client/server architecture for caching purposes. In particular, it makes autocompletions very fast. Typical autocompletion time with warm cache is 30ms, which is barely noticeable.
-
-Also watch the [demo screencast](http://nosmileface.ru/images/gocode-demo.swf).
-
-![Gocode in vim](http://nosmileface.ru/images/gocode-screenshot.png)
-
-![Gocode in emacs](http://nosmileface.ru/images/emacs-gocode.png)
 
 ### Setup
 
